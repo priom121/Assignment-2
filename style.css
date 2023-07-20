@@ -28,7 +28,7 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 .nav-menu a{
   text-decoration: none;
-  margin-right: 60px;
+  margin-right: 140px;
  color: #3C354F;
 text-align: center;
 font-size: 18px;
@@ -109,6 +109,18 @@ padding:30px
 /*banner container end*/
 
 /*main section*/
+#btn{
+ font-size: 50px;
+ margin-top: -100px;
+ 
+ 
+}
+.main-container1:hover{
+  opacity: 0.6;
+  background-image: white;
+
+
+}
 section{
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -174,7 +186,7 @@ font-size: 18px;
 }
 .icon-section-1{
   display: flex;
-  gap:7px
+  gap:7px;
 }
 .div-1{
   display: flex;
@@ -320,16 +332,21 @@ font-size: 18px;
       .nav-container{
         flex-direction: column;
       }
+      .nav-bar h2{
+        margin-right: 90px;
+      }
       .nav-menu a{
         flex-direction: column;
+        margin-left:55px;
       }
       .nav-menu #nav-2{
         flex-direction: column;
       }
-      .nav-menu #follow-us{
+       #follow-us{
         border:1px solid #3C354F;
         padding:3px;
         border-radius: 5px;
+        margin-left: 39px;
       }
       .banner-container{
         flex-direction: column;
@@ -443,4 +460,4 @@ font-size: 18px;
   .text-item{
     gap: 10px;
   }
-}
+} 
